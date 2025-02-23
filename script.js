@@ -70,7 +70,7 @@ function setupDropdowns() {
   };
 
   const otherRoles = {
-    "CT Radiographer": ["Tech A", "Tech B", "Tech C"],
+    "CT Radiographer": ["Tech Alpha", "Tech B", "Tech C"],
     "Admission": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Priyangani", "N/O Mrs. Thennakkoon", "N/O Mrs. T.B.N. Senavirathne", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Muthukoda", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Asanka"],
     "Others": ["Sriyani", "Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilandhi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"]
   };
