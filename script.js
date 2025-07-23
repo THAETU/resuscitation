@@ -45,7 +45,7 @@ function setupDropdowns() {
          { name: "Dr. Sambavi", contact: "0779756129" },
          { name: "Dr. Umavi", contact: "0710182083" },
          { name: "Dr. Darani", contact: "0779693323" }
-    ]
+    ],
     "Surgery": [
          { name: "Dr. Shashika Liyanage", contact: "0718098353" },
          { name: "Dr. K.M.M. Kulasekara", contact: "0777946567" },
