@@ -8,10 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function setupDropdowns() {
-  const emergency physician ={
-  "Emergency Physician":["Dr. Dinesh Weerasinghe", "Dr. Sanadamali Dharmasena"]
-  };
-  
   const teamRoles = {
     "Team Leader": ["Dr. Ashan", ", "Dr. Dharsha", "Dr. Nairoos", "Dr. Poornima", "Dr. Jayani", "Dr.Thushan", "Dr. Dhanushan", "Dr. Pulasthi", "Dr. Hiruni", "Dr. Chathurika", "Dr. Heerthikan", "Dr. Vithushan"],
     "CPR-1": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"], 
@@ -120,11 +116,6 @@ function populateDropdowns(containerId, options, isSpecialty = false) {
 }
 
 function saveSelections() {
-  let emergencyPhycisians = {};
-  document.querySelectorAll("#emergency-physicians select").forEach(select => {
-    emergencyPhycisians[select.id] = select.value;
-  });
-  
   let teamMembers = {};
   document.querySelectorAll("#team-members select").forEach(select => {
     teamMembers[select.id] = select.value;
@@ -153,21 +144,13 @@ function saveSelections() {
 }
 
 function displaySummary() {
-  const oncall emergency physician = JSON.parse(localStorage.getItem("oncallEmergencyPhysician")) || {};
   const teamMembers = JSON.parse(localStorage.getItem("teamMembers")) || {};
   const specialties = JSON.parse(localStorage.getItem("specialties")) || {};
   const otherRoles = JSON.parse(localStorage.getItem("otherRoles")) || {};
 
-  const emergencyPhysicianList = document.getElementById("emergency-physician-list");
   const teamList = document.getElementById("summary-team-list");
   const specialtyList = document.getElementById("summary-specialty-list");
   const otherRolesList = document.getElementById("summary-other-roles");
-
-  Object.entries(emergencyPhysician).forEach(([role, name]) => {
-    let li = document.createElement("li");
-    li.innerHTML = `${role.replace(/-/g, " ")}<strong>: ${name || "Not Assigned"}`;
-    teamList.appendChild(li);
-  });
 
   Object.entries(teamMembers).forEach(([role, name]) => {
     let li = document.createElement("li");
