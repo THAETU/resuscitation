@@ -8,6 +8,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function setupDropdowns() {
+  const emergency physician ={
+  "Emergency Physician":["Dr. Dinesh Weerasinghe", "Dr. Sanadamali Dharmasena"]
+  };
+  
   const teamRoles = {
     "Team Leader": ["Dr. Ashan", ", "Dr. Dharsha", "Dr. Nairoos", "Dr. Poornima", "Dr. Jayani", "Dr.Thushan", "Dr. Dhanushan", "Dr. Pulasthi", "Dr. Hiruni", "Dr. Chathurika", "Dr. Heerthikan", "Dr. Vithushan"],
     "CPR-1": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"], 
@@ -49,7 +53,7 @@ function setupDropdowns() {
     "Surgery": [
          { name: "Dr. Shashika Liyanage", contact: "0718098353" },
          { name: "Dr. K.M.M. Kulasekara", contact: "0777946567" },
-         { name: "Dr. Dickson Wickramaratne", contact: "0718120938" },
+         { name: "Dr. Chandana Dampage", contact: "0718120938" },
          { name: "Dr. Sujeewa Thalgaspitiya", contact: "0778084465" },
          { name: "Dr. Srishankar", contact: "0767026539" },
          { name: "Dr. Kithsiri Senanayake", contact: "0772094131" },
@@ -66,16 +70,17 @@ function setupDropdowns() {
     "Cardiology": [
          { name: "Dr. Arulkumar Jegavanthan", contact: "0774790360" },
          { name: "Dr. Sumudu Sajeewa Wickramasinghe", contact: "0772987256" },
-         { name: "Dr. U.M Mohamed Aaqiff", contact: "0771733866" }
+         { name: "Dr. Tharanga Fernando", contact: "0771733866" }
     ]
   };
 
   const otherRoles = {
     "CT Radiographer": ["Tech Alpha", "Tech B", "Tech C"],
-    "Admission": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Priyangani", "N/O Mrs. Thennakkoon", "N/O Mrs. T.B.N. Senavirathne", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Muthukoda", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Asanka"],
-    "Others": ["Sriyani", "Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilandhi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"]
+    "Admission": [""N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"]
+    "Others": [ "Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"]
   };
 
+  populateDropdowns("emergency physician", on call emergency physician);
   populateDropdowns("team-members", teamRoles);
   populateDropdowns("specialties", specialties, true);
   populateDropdowns("other-roles", otherRoles);
