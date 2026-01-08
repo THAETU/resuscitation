@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function setupDropdowns() {
   const teamRoles = {
-    "Team Leader": ["Dr. Ashan", "Dr. Dharsha", "Dr. Nairoos", "Dr. Poornima", "Dr. Jayani", "Dr.Thushan", "Dr. Tithira", "Dr. Pulasthi", "Dr. Hiruni", "Dr. Chathurika", "Dr. Indumini", "Dr. Sameera", "Dr. Daksith"],
+    "Team Leader": ["Dr. Ashan", "Dr. Dharsha", "Dr. Nairoos", "Dr. Poornima", "Dr. Jayani", "Dr.Thushan", "Dr. Tithira", "Dr. Pulasthi", "Dr. Hiruni", "Dr. Chathurika", "Dr. Indumini", "Dr. Sameera", "Dr. Daksith", "Dr. Wathsala"],
     "CPR-1": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"], 
     "CPR-2": [ "Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"],
-    "Airway": ["Dr. Ashan", "Dr. Dharsha", "Dr. Nairoos", "Dr. Poornima", "Dr. Jayani", "Dr.Thushan", "Dr. Tithira", "Dr. Pulasthi", "Dr. Hiruni", "Dr. Chathurika", "Dr. Indumini", "Dr. Sameera", "Dr. Daksith"],
+    "Airway": ["Dr. Ashan", "Dr. Dharsha", "Dr. Nairoos", "Dr. Poornima", "Dr. Jayani", "Dr.Thushan", "Dr. Tithira", "Dr. Pulasthi", "Dr. Hiruni", "Dr. Chathurika", "Dr. Indumini", "Dr. Sameera", "Dr. Daksith", "Dr. Wathsala"],
     "Vascular access & medications": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"],
     "Scriber": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"]
   };
@@ -38,7 +38,7 @@ function setupDropdowns() {
          { name: "Dr. Kogulan", contact: "0778485538" },
          { name: "Dr. Sachini", contact: "0718737130" },
          { name: "Dr. Lahiru (B)", contact: "0756550421" },
-         { name: "Dr. Niroshan", contact: "0779550333" },
+         { name: "Dr. Pasindu", contact: "0716364452" },
          { name: "Dr. Dimantha", contact: "0711164709" },
          { name: "Dr. Nithurshan", contact: "0773175078" },
          { name: "Dr. Dileepa", contact: "0701302050" },
@@ -49,7 +49,7 @@ function setupDropdowns() {
     "Surgery": [
          { name: "Dr. Shashika Liyanage", contact: "0718098353" },
          { name: "Dr. K.M.M. Kulasekara", contact: "0777946567" },
-         { name: "Dr. Chandana Dampage", contact: "0718120938" },
+         { name: "Dr. Balasundaram Prashanthan", contact: "0773040531" },
          { name: "Dr. Sujeewa Thalgaspitiya", contact: "0778084465" },
          { name: "Dr. Srishankar", contact: "0767026539" },
          { name: "Dr. Kithsiri Senanayake", contact: "0772094131" },
