@@ -38,7 +38,7 @@ function setupDropdowns() {
          { name: "Dr. Kogulan", contact: "0778485538" },
          { name: "Dr. Sachini", contact: "0718737130" },
          { name: "Dr. Lahiru (B)", contact: "0756550421" },
-         { name: "Dr. Pasindu", contact: "0716364452" },
+         { name: "Dr. Pasindu", contact: "0779916545" },
          { name: "Dr. Dimantha", contact: "0711164709" },
          { name: "Dr. Nithurshan", contact: "0773175078" },
          { name: "Dr. Dileepa", contact: "0701302050" },
