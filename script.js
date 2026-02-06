@@ -22,7 +22,7 @@ function setupDropdowns() {
   const specialties = {
     "Medical Consultant": [
          { name: "Dr. Nimal Senevirathne", contact: "0718576150" },
-         { name: "Dr. Jayalakshmi", contact: "0777537994" },
+         { name: "Dr. S. Jeyalakshmi", contact: "0777537994" },
          { name: "Dr. Chathooriya Pathmulla", contact: "0773242878" },
          { name: "Dr. Jevon Yudishtan", contact: "0773412273" },
          { name: "Dr. Nuwan Premawardana", contact: "0718496348" },
