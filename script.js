@@ -22,7 +22,7 @@ function setupDropdowns() {
   const specialties = {
     "Medical Consultant": [
          { name: "Dr. Nimal Senevirathne", contact: "0718576150" },
-         { name: "Dr. S. Jeyalakshmi", contact: "0777537994" },
+         { name: "Dr. S. Jeyalakshmy", contact: "0777537994" },
          { name: "Dr. Chathooriya Pathmulla", contact: "0773242878" },
          { name: "Dr. Jevon Yudishtan", contact: "0773412273" },
          { name: "Dr. Nuwan Premawardana", contact: "0718496348" },
@@ -35,16 +35,20 @@ function setupDropdowns() {
     "Medical Registrar": [
          { name: "Dr. Sandun", contact: "0771700829" },
          { name: "Dr. Piyumi", contact: "0711610981" },
-         { name: "Dr. Kogulan", contact: "0778485538" },
+         { name: "Dr. Nisal", contact: "0719412920" },
          { name: "Dr. Sachini", contact: "0718737130" },
          { name: "Dr. Lahiru (B)", contact: "0756550421" },
          { name: "Dr. Pasindu", contact: "0779916545" },
          { name: "Dr. Dimantha", contact: "0711164709" },
          { name: "Dr. Nithurshan", contact: "0773175078" },
          { name: "Dr. Dileepa", contact: "0701302050" },
-         { name: "Dr. Sambavi", contact: "0779756129" },
+         { name: "Dr. Thushan", contact: "0712485574" },
          { name: "Dr. Umavi", contact: "0710182083" },
-         { name: "Dr. Darani", contact: "0779693323" }
+         { name: "Dr. Dharani", contact: "0779693323" },
+         { name: "Dr. Nilupul", contact: "0702933440" },
+         { name: "Dr. Inodya", contact: "0712918756" },
+         { name: "Dr. Luxchana", contact: "0767676492" },
+         { name: "Dr. Ganapprasanna", contact: "0775122749" }
     ],
     "Surgery": [
          { name: "Dr. Shashika Liyanage", contact: "0718098353" },
