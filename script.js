@@ -24,7 +24,7 @@ function setupDropdowns() {
          { name: "Dr. Nimal Senevirathne", contact: "0718576150" },
          { name: "Dr. S. Jeyalakshmy", contact: "0777537994" },
          { name: "Dr. Chathooriya Pathmulla", contact: "0773242878" },
-         { name: "Dr. Jevon Yudishtan", contact: "0773412273" },
+         { name: "Dr. Jevon Yudishdran", contact: "0773412273" },
          { name: "Dr. Nuwan Premawardana", contact: "0718496348" },
          { name: "Dr. S.D.N Senadhira", contact: "0774386248" },
          { name: "Prof. Dr. Siribaddana ", contact: "0777326940" },
