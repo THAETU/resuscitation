@@ -23,7 +23,7 @@ function setupDropdowns() {
     "Medical Consultant": [
          { name: "Dr. Nimal Senevirathne", contact: "0718576150" },
          { name: "Dr. S. Jeyalakshmy", contact: "0777537994" },
-         { name: "Dr. Chathooriya Pathmulla", contact: "0773242878" },
+         { name: "Dr. Chathurya Pothmulla", contact: "0773242878" },
          { name: "Dr. Jevon Yudishdran", contact: "0773412273" },
          { name: "Dr. Nuwan Premawardana", contact: "0718496348" },
          { name: "Dr. S.D.N Senadhira", contact: "0774386248" },
@@ -34,7 +34,7 @@ function setupDropdowns() {
     ],
     "Medical Registrar": [
          { name: "Dr. Sandun", contact: "0771700829" },
-         { name: "Dr. Piyumi", contact: "0711610981" },
+         { name: "Dr. Piyumi", contact: "0741110981" },
          { name: "Dr. Nisal", contact: "0719412920" },
          { name: "Dr. Sachini", contact: "0718737130" },
          { name: "Dr. Lahiru (B)", contact: "0756550421" },
