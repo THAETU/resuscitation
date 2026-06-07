@@ -31,6 +31,7 @@ function setupDropdowns() {
          { name: "Dr. Chamara Sarathchandra", contact: "0774743366" },
          { name: "Dr. Hemal Senanayaka", contact: "0772075330" },
          { name: "Dr. Prasanna Veeravansha", contact: "0773750414" }
+         { name: "Dr. Lanka Wijekoon", contact: "0766302729" }
     ],
     "Medical Registrar": [
          { name: "Dr. Sandun", contact: "0771700829" },
