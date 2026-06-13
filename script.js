@@ -109,8 +109,8 @@ const specialties = {
   };
 
   const additionalRoles = {
-    "CT Radiographer": ["Tech Alpha", "Tech B", "Tech C"],
-    "Others": ["Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"]
+    "Inside HCA": ["Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"],
+    "CT Radiographer": ["Tech Alpha", "Tech B", "Tech C"]    
   };
 
   
