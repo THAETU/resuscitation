@@ -42,9 +42,25 @@ function setupDropdowns() {
          { name: "Dr. Dileepa", contact: "0701302050" },
          { name: "Dr. Thushan", contact: "0712485574" },
          { name: "Dr. Nilupul", contact: "0702933440" },
-         { name: "Dr. Ganapprasanna", contact: "0775122749" }
+         { name: "Dr. Ganapprasanna", contact: "0775122749" },
+         { name: "Dr. Piyumi", contact: "0741110981" },
+         { name: "Dr. Sachini", contact: "0718737130" },
+         { name: "Dr. Umavi", contact: "0710182083" },
+         { name: "Dr. Dharani", contact: "0779693323" },
+         { name: "Dr. Inodya", contact: "0712918756" },
+         { name: "Dr. Luxchana", contact: "0767676492" }
     ],
     "Medical Registrar (Female)": [
+         { name: "Dr. Sandun", contact: "0771700829" },
+         { name: "Dr. Nisal", contact: "0719412920" },
+         { name: "Dr. Lahiru (B)", contact: "0756550421" },
+         { name: "Dr. Pasindu", contact: "0779916545" },
+         { name: "Dr. Dimantha", contact: "0711164709" },
+         { name: "Dr. Nithurshan", contact: "0773175078" },
+         { name: "Dr. Dileepa", contact: "0701302050" },
+         { name: "Dr. Thushan", contact: "0712485574" },
+         { name: "Dr. Nilupul", contact: "0702933440" },
+         { name: "Dr. Ganapprasanna", contact: "0775122749" },
          { name: "Dr. Piyumi", contact: "0741110981" },
          { name: "Dr. Sachini", contact: "0718737130" },
          { name: "Dr. Umavi", contact: "0710182083" },
@@ -74,9 +90,23 @@ function setupDropdowns() {
     ]
   };
   
+  // const otherRoles = {
+  //   "CT Radiographer": ["Tech Alpha", "Tech B", "Tech C"],
+  //   "Admission": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"],
+  //   "Others": ["Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"]
+  // };
+
+    const admissionNurses = ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"];
+
   const otherRoles = {
+    "N1 Floor Narigator": admissionNurses,
+    "N2 Admission      ": admissionNurses,
+    "N3 Resus bed 1 & 2": admissionNurses,
+    "N4 Resus bed 3 & 4": admissionNurses,
+    "N5 Trolly & Floor": admissionNurses,
+    "N6 Trolly & Floor": admissionNurses,
+    "N7 Trolly & Floor": admissionNurses,
     "CT Radiographer": ["Tech Alpha", "Tech B", "Tech C"],
-    "Admission": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"],
     "Others": ["Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"]
   };
 
