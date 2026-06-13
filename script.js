@@ -103,9 +103,9 @@ const specialties = {
     "N2 Admission      ": admissionNurses,
     "N3 Resus bed 1 & 2": admissionNurses,
     "N4 Resus bed 3 & 4": admissionNurses,
-    "N5 Trolly & Floor": admissionNurses,
-    "N6 Trolly & Floor": admissionNurses,
-    "N7 Trolly & Floor": admissionNurses,    
+    "N5 Trolley & Floor": admissionNurses,
+    "N6 Trolley & Floor": admissionNurses,
+    "N7 Trolley & Floor": admissionNurses,    
   };
 
   const additionalRoles = {
