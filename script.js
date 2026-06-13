@@ -19,7 +19,7 @@ function setupDropdowns() {
   
   // Updated specialties with multiple options per role
 
-  const specialties = {
+const specialties = {
     "Medical Consultant": [
          { name: "Dr. Nimal Senevirathne", contact: "0718576150" },
          { name: "Dr. S. Jeyalakshmy", contact: "0777537994" },
@@ -89,23 +89,26 @@ function setupDropdowns() {
          { name: "Dr. Tharanga Fernando", contact: "0771733866" }
     ]
   };
-  
+
   // const otherRoles = {
   //   "CT Radiographer": ["Tech Alpha", "Tech B", "Tech C"],
   //   "Admission": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"],
   //   "Others": ["Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"]
   // };
 
-    const admissionNurses = ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"];
+  const admissionNurses = ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"];
 
-  const otherRoles = {
-    "N1 Floor Narigator": admissionNurses,
+  const nursesRoles = {
+    "N1 Floor Navigator": admissionNurses,
     "N2 Admission      ": admissionNurses,
     "N3 Resus bed 1 & 2": admissionNurses,
     "N4 Resus bed 3 & 4": admissionNurses,
     "N5 Trolly & Floor": admissionNurses,
     "N6 Trolly & Floor": admissionNurses,
-    "N7 Trolly & Floor": admissionNurses,
+    "N7 Trolly & Floor": admissionNurses,    
+  };
+
+  const additionalRoles = {
     "CT Radiographer": ["Tech Alpha", "Tech B", "Tech C"],
     "Others": ["Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"]
   };
@@ -113,7 +116,8 @@ function setupDropdowns() {
   
   populateDropdowns("team-members", teamRoles);
   populateDropdowns("specialties", specialties, true);
-  populateDropdowns("other-roles", otherRoles);
+  populateDropdowns("nurses-roles", nursesRoles);
+  populateDropdowns("additional-roles", additionalRoles);
 }
 
 function populateDropdowns(containerId, options, isSpecialty = false) {
@@ -166,25 +170,33 @@ function saveSelections() {
   });
   
   let otherRolesData = {};
-  document.querySelectorAll("#other-roles select").forEach(select => {
+  document.querySelectorAll("#nurses-roles select").forEach(select => {
     otherRolesData[select.id] = select.value;
+  });
+
+  let additionalRolesData = {};
+  document.querySelectorAll("#additional-roles select").forEach(select => {
+    additionalRolesData[select.id] = select.value;
   });
 
   localStorage.setItem("teamMembers", JSON.stringify(teamMembers));
   localStorage.setItem("specialties", JSON.stringify(specialties));
-  localStorage.setItem("otherRoles", JSON.stringify(otherRolesData));
-  
+  localStorage.setItem("nursesRoles", JSON.stringify(otherRolesData));
+  localStorage.setItem("additionalRoles", JSON.stringify(additionalRolesData));
+
   window.location.href = "summary.html";
 }
 
 function displaySummary() {
   const teamMembers = JSON.parse(localStorage.getItem("teamMembers")) || {};
   const specialties = JSON.parse(localStorage.getItem("specialties")) || {};
-  const otherRoles = JSON.parse(localStorage.getItem("otherRoles")) || {};
+  const nursesRoles = JSON.parse(localStorage.getItem("nursesRoles")) || {};
+  const additionalRoles = JSON.parse(localStorage.getItem("additionalRoles")) || {};
 
   const teamList = document.getElementById("summary-team-list");
   const specialtyList = document.getElementById("summary-specialty-list");
-  const otherRolesList = document.getElementById("summary-other-roles");
+  const nursesList = document.getElementById("summary-nurses-roles");
+  const additionalList = document.getElementById("summary-additional-roles");
 
   Object.entries(teamMembers).forEach(([role, name]) => {
     let li = document.createElement("li");
@@ -198,9 +210,15 @@ function displaySummary() {
     specialtyList.appendChild(li);
   });
 
-  Object.entries(otherRoles).forEach(([role, name]) => {
+  Object.entries(nursesRoles).forEach(([role, name]) => {
     let li = document.createElement("li");
-    li.innerHTML = `${role.replace(/-/g, " ")}<strong>: ${name || "Not Assigned"}`;
-    otherRolesList.appendChild(li);
+    li.innerHTML = `${role.replace(/-/g, " ")}<strong>: ${name || "Not Assigned"}</strong>`;
+    nursesList.appendChild(li);
+  });
+
+  Object.entries(additionalRoles).forEach(([role, name]) => {
+    let li = document.createElement("li");
+    li.innerHTML = `${role.replace(/-/g, " ")}<strong>: ${name || "Not Assigned"}</strong>`;
+    additionalList.appendChild(li);
   });
 }
