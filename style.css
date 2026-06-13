@@ -82,7 +82,8 @@ input, select {
 }
 
 #summary-team-list li,
-#summary-other-roles li {
+#summary-nurses-roles li,
+#summary-additional-roles li {
   background: #f0f0f0;
   color: #333;
   padding: 10px;
