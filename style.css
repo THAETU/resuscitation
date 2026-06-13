@@ -78,7 +78,7 @@ input, select {
   padding: 10px;
   border-radius: 5px;
   font-size: 14px;
-  margin: 5px 0;
+  margin: 3px 0;
 }
 
 #summary-team-list li,
@@ -89,7 +89,7 @@ input, select {
   padding: 10px;
   border-radius: 5px;
   font-size: 14px;
-  margin: 5px 0;
+  margin: 3px 0;
 }
 
 .back-link {
