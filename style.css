@@ -75,7 +75,7 @@ input, select {
 #summary-specialty-list li {
   background: #010059;
   color: white;
-  padding: 10px;
+  padding: 8px;
   border-radius: 5px;
   font-size: 14px;
   margin: 3px 0;
@@ -86,7 +86,7 @@ input, select {
 #summary-additional-roles li {
   background: #f0f0f0;
   color: #333;
-  padding: 10px;
+  padding: 8px;
   border-radius: 5px;
   font-size: 14px;
   margin: 3px 0;
