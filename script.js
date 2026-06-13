@@ -32,23 +32,25 @@ function setupDropdowns() {
          { name: "Dr. Hemal Senanayaka", contact: "0772075330" },
          { name: "Dr. Prasanna Veeravansha", contact: "0773750414" }
     ],
-    "Medical Registrar": [
+    "Medical Registrar (Male)": [
          { name: "Dr. Sandun", contact: "0771700829" },
-         { name: "Dr. Piyumi", contact: "0741110981" },
          { name: "Dr. Nisal", contact: "0719412920" },
-         { name: "Dr. Sachini", contact: "0718737130" },
          { name: "Dr. Lahiru (B)", contact: "0756550421" },
          { name: "Dr. Pasindu", contact: "0779916545" },
          { name: "Dr. Dimantha", contact: "0711164709" },
          { name: "Dr. Nithurshan", contact: "0773175078" },
          { name: "Dr. Dileepa", contact: "0701302050" },
          { name: "Dr. Thushan", contact: "0712485574" },
+         { name: "Dr. Nilupul", contact: "0702933440" },
+         { name: "Dr. Ganapprasanna", contact: "0775122749" }
+    ],
+    "Medical Registrar (Female)": [
+         { name: "Dr. Piyumi", contact: "0741110981" },
+         { name: "Dr. Sachini", contact: "0718737130" },
          { name: "Dr. Umavi", contact: "0710182083" },
          { name: "Dr. Dharani", contact: "0779693323" },
-         { name: "Dr. Nilupul", contact: "0702933440" },
          { name: "Dr. Inodya", contact: "0712918756" },
-         { name: "Dr. Luxchana", contact: "0767676492" },
-         { name: "Dr. Ganapprasanna", contact: "0775122749" }
+         { name: "Dr. Luxchana", contact: "0767676492" }
     ],
     "Surgery": [
          { name: "Dr. Shashika Liyanage", contact: "0718098353" },
@@ -58,14 +60,12 @@ function setupDropdowns() {
          { name: "Dr. Srishankar", contact: "0767026539" },
          { name: "Dr. Kithsiri Senanayake", contact: "0772094131" },
          { name: "Dr. Anuradha Jayathilaka", contact: "0718426263" }
-  
     ],
     "Pediatrics": [
          { name: "Dr. Udhaya DeSilva", contact: "0773785646" },
          { name: "Dr. Damitha Chandradasa", contact: "0705256054" },
          { name: "Dr. Nayani Suraweera", contact: "0777231818" },
          { name: "Dr. M.M. Arambepola", contact: "0777844095" }
-
     ],
     "Cardiology": [
          { name: "Dr. Arulkumar Jegavanthan", contact: "0774790360" },
@@ -73,7 +73,7 @@ function setupDropdowns() {
          { name: "Dr. Tharanga Fernando", contact: "0771733866" }
     ]
   };
-
+  
   const otherRoles = {
     "CT Radiographer": ["Tech Alpha", "Tech B", "Tech C"],
     "Admission": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena"],
