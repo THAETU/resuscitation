@@ -101,10 +101,10 @@ const specialties = {
   const nursesRoles = {
     "N1 Floor Navigator": admissionNurses,
     "N2 Admission      ": admissionNurses,
-    "N3 Resus bed 1 & 2": admissionNurses,
-    "N4 Resus bed 3 & 4": admissionNurses,
-    "N5 Trolley & Floor": admissionNurses,
-    "N6 Trolley & Floor": admissionNurses,
+    "N3 Resus bed 1": admissionNurses,
+    "N4 Resus bed 2": admissionNurses,
+    "N5 Resus bed 3": admissionNurses,
+    "N6 Resus bed 4": admissionNurses,
     "N7 Trolley & Floor": admissionNurses,    
   };
 
