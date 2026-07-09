@@ -45,7 +45,7 @@ const specialties = {
          { name: "Dr. Ganapprasanna", contact: "0775122749" },
          { name: "Dr. Piyumi", contact: "0741110981" },
          { name: "Dr. Sachini", contact: "0718737130" },
-         { name: "Dr. Umavi", contact: "0710182083" },
+         { name: "Dr. Iruni", contact: "0717053215" },
          { name: "Dr. Dharani", contact: "0779693323" },
          { name: "Dr. Inodya", contact: "0712918756" },
          { name: "Dr. Luxchana", contact: "0767676492" }
@@ -63,7 +63,7 @@ const specialties = {
          { name: "Dr. Ganapprasanna", contact: "0775122749" },
          { name: "Dr. Piyumi", contact: "0741110981" },
          { name: "Dr. Sachini", contact: "0718737130" },
-         { name: "Dr. Umavi", contact: "0710182083" },
+         { name: "Dr. Iruni", contact: "0717053215" },
          { name: "Dr. Dharani", contact: "0779693323" },
          { name: "Dr. Inodya", contact: "0712918756" },
          { name: "Dr. Luxchana", contact: "0767676492" }
