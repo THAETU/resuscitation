@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+ document.addEventListener("DOMContentLoaded", function () {
   if (document.getElementById("team-members")) {
     setupDropdowns();
     document.getElementById("save-button").addEventListener("click", saveSelections);
@@ -35,9 +35,9 @@ const specialties = {
     "Medical Registrar (Male)": [
          { name: "Dr. Sandun", contact: "0771700829" },
          { name: "Dr. Nisal", contact: "0719412920" },
-         { name: "Dr. Lahiru (B)", contact: "0756550421" },
+         { name: "Dr. Thilina", contact: "0705552962" },
          { name: "Dr. Pasindu", contact: "0779916545" },
-         { name: "Dr. Dimantha", contact: "0711164709" },
+         { name: "Dr. Nishantha", contact: "0767388487" },
          { name: "Dr. Nithurshan", contact: "0773175078" },
          { name: "Dr. Dileepa", contact: "0701302050" },
          { name: "Dr. Thushan", contact: "0712485574" },
