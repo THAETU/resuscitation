@@ -31,8 +31,8 @@ const specialties = {
          { name: "Dr. Chamara Sarathchandra", contact: "0774743366" },
          { name: "Dr. Hemal Senanayaka", contact: "0772075330" },
          { name: "Dr. Prasanna Veeravansha", contact: "0773750414" },
-         { name: "Dr. Lanka Wijekoon", contact: "0773750414" },
-         { name: "Dr. M.I.M. Rifath", contact: "07737504141" }
+         { name: "Dr. Lanka Wijekoon", contact: "0716302729" },
+         { name: "Dr. M.I.M. Rifath", contact: "0777174409" }
     ],
     "Medical Registrar (Male)": [
          { name: "Dr. Sandun", contact: "0771700829" },
