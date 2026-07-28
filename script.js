@@ -30,7 +30,9 @@ const specialties = {
          { name: "Prof. Dr. Siribaddana ", contact: "0777326940" },
          { name: "Dr. Chamara Sarathchandra", contact: "0774743366" },
          { name: "Dr. Hemal Senanayaka", contact: "0772075330" },
-         { name: "Dr. Prasanna Veeravansha", contact: "0773750414" }
+         { name: "Dr. Prasanna Veeravansha", contact: "0773750414" },
+         { name: "Dr. Lanka Wijekoon", contact: "0773750414" },
+         { name: "Dr. M.I.M. Rifath", contact: "07737504141" }
     ],
     "Medical Registrar (Male)": [
          { name: "Dr. Sandun", contact: "0771700829" },
@@ -49,7 +51,7 @@ const specialties = {
          { name: "Dr. Kemali", contact: "0772594111" },
          { name: "Dr. Inodya", contact: "0712918756" },
          { name: "Dr. Luxchana", contact: "0767676492" },
-         { name: "Dr. Bhanujith", contact: "0713712960" },
+         { name: "Dr. Bhanujith", contact: "0713712960" }
     ],
     "Medical Registrar (Female)": [
          { name: "Dr. Sandun", contact: "0771700829" },
@@ -68,7 +70,7 @@ const specialties = {
          { name: "Dr. Kemali", contact: "0772594111" },
          { name: "Dr. Inodya", contact: "0712918756" },
          { name: "Dr. Luxchana", contact: "0767676492" },
-         { name: "Dr. Bhanujith", contact: "0713712960" },
+         { name: "Dr. Bhanujith", contact: "0713712960" }
     ],
     "Surgery": [
          { name: "Dr. Shashika Liyanage", contact: "0718098353" },
