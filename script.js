@@ -51,7 +51,8 @@ const specialties = {
          { name: "Dr. Kemali", contact: "0772594111" },
          { name: "Dr. Inodya", contact: "0712918756" },
          { name: "Dr. Luxchana", contact: "0767676492" },
-         { name: "Dr. Bhanujith", contact: "0713712960" }
+         { name: "Dr. Bhanujith", contact: "0713712960" },
+         { name: "Dr. Chavisha", contact: "0765509755" }
     ],
     "Medical Registrar (Female)": [
          { name: "Dr. Sandun", contact: "0771700829" },
@@ -70,7 +71,8 @@ const specialties = {
          { name: "Dr. Kemali", contact: "0772594111" },
          { name: "Dr. Inodya", contact: "0712918756" },
          { name: "Dr. Luxchana", contact: "0767676492" },
-         { name: "Dr. Bhanujith", contact: "0713712960" }
+         { name: "Dr. Bhanujith", contact: "0713712960" },
+         { name: "Dr. Chavisha", contact: "0765509755" }
     ],
     "Surgery": [
          { name: "Dr. Shashika Liyanage", contact: "0718098353" },
