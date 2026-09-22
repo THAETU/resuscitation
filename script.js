@@ -9,10 +9,10 @@
 
 function setupDropdowns() {
   const teamRoles = {
-    "Team Leader": ["Dr. Ashan", "Dr. Dharsha", "Dr. Hasitha", "Dr. Poornima", "Dr. Jayani", "Dr.Lakshani", "Dr. Tithira", "Dr. Sumiththa", "Dr. Hiruni", "Dr. Chathurika", "Dr. Indumini", "Dr. Sameera", "Dr. Daksith", "Dr. Wathsala", "Dr. Kajaniya", "Dr. Sanjaya"],
+    "Team Leader": ["Dr. Ashan", "Dr. Dharsha", "Dr. Hasitha", "Dr. Poornima", "Dr. Jayani", "Dr.Lakshani", "Dr. Tithira", "Dr. Sumiththa", "Dr. Hiruni", "Dr. Chathurika", "Dr. Indumini", "Dr. Supun", "Dr. Gowthaman", "Dr. Wathsala", "Dr. Kajaniya", "Dr. Sanjaya"],
     "CPR-1": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena", "N/O Mrs. Amali"], 
     "CPR-2": [ "Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"],
-    "Airway": ["Dr. Ashan", "Dr. Dharsha", "Dr. Hasitha", "Dr. Poornima", "Dr. Jayani", "Dr.Lakshani", "Dr. Tithira", "Dr. Sumiththa", "Dr. Hiruni", "Dr. Chathurika", "Dr. Indumini", "Dr. Sameera", "Dr. Daksith", "Dr. Wathsala", "Dr. Kajaniya", "Dr. Sanjaya"],
+    "Airway": ["Dr. Ashan", "Dr. Dharsha", "Dr. Hasitha", "Dr. Poornima", "Dr. Jayani", "Dr.Lakshani", "Dr. Tithira", "Dr. Sumiththa", "Dr. Hiruni", "Dr. Chathurika", "Dr. Indumini", "Dr. Supun", "Dr. Gowthaman", "Dr. Wathsala", "Dr. Kajaniya", "Dr. Sanjaya"],
     "Vascular access & medications": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena", "N/O Mrs. Amali"],
     "Scriber": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena", "N/O Mrs. Amali"]
   };
@@ -90,7 +90,7 @@ const specialties = {
          { name: "Dr. M.M. Arambepola", contact: "0777844095" }
     ],
     "Cardiology": [
-         { name: "Dr. Arulkumar Jegavanthan", contact: "0774790360" },
+         { name: "Dr. Dinuka Liyanage", contact: "0773796861" },
          { name: "Dr. Sumudu Sajeewa Wickramasinghe", contact: "0772987256" },
          { name: "Dr. Tharanga Fernando", contact: "0771733866" }
     ]
