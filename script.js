@@ -11,7 +11,7 @@ function setupDropdowns() {
   const teamRoles = {
     "Team Leader": ["Dr. Ashan", "Dr. Darsha", "Dr. Hasitha", "Dr. Poornima", "Dr. Jayani", "Dr.Lakshani", "Dr. Tithira", "Dr. Sumiththa", "Dr. Hiruni", "Dr. Chathurika", "Dr. Indumini", "Dr. Supun", "Dr. Gowthaman", "Dr. Wathsala", "Dr. Kajaniya", "Dr. Sanjaya"],
     "CPR-1": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena", "N/O Mrs. Amali"], 
-    "CPR-2": [ "Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"],
+    "CPR-2": [ "Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh", "Asanka", "Wasana", "Dilrukshi"],
     "Airway": ["Dr. Ashan", "Dr. Darsha", "Dr. Hasitha", "Dr. Poornima", "Dr. Jayani", "Dr.Lakshani", "Dr. Tithira", "Dr. Sumiththa", "Dr. Hiruni", "Dr. Chathurika", "Dr. Indumini", "Dr. Supun", "Dr. Gowthaman", "Dr. Wathsala", "Dr. Kajaniya", "Dr. Sanjaya"],
     "Vascular access & medications": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena", "N/O Mrs. Amali"],
     "Scriber": ["N/O Mr. Dissanayake", "N/O Mrs. Kulasekara", "N/O Mrs. Priyadharshani", "N/O Mrs. Pathirana", "N/O Mrs. Thennakoon", "N/O Mrs.Manawasinghe", "N/O Mr. Shantha", "N/O Mrs. Shanika Dhayani", "N/O Mrs. S.M.L.W. Senavirathne", "N/O Mr. Madushanka", "N/O Mrs. Tharushani", "N/O Miss. Marasinghe", "N/O Mr. Illangasinghe", "N/O Mrs. Dilinika", "N/O Miss. Attapaththu","N/O Mrs. Harshani","N/O Miss. Dissanayake", "N/O Miss. Ariyasena", "N/O Mrs. Amali"]
@@ -115,7 +115,7 @@ const specialties = {
   };
 
   const additionalRoles = {
-    "Inside HCA": ["Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh"],
+    "Inside HCA": ["Shamali", "Rasika", "Chandani", "Madhuka", "Priyangika", "Sandhya", "Nilanthi", "Mahesh", "Nishantha", "Iresh", "Senarath", "Prabath", "Dimuthu", "Suresh", "Asanka", "Wasana", "Dilrukshi"],
     "CT Radiographer": ["Tech Alpha", "Tech B", "Tech C"]    
   };
 
