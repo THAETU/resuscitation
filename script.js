@@ -78,7 +78,7 @@ const specialties = {
          { name: "Dr. Shashika Liyanage", contact: "0718098353" },
          { name: "Dr. K.M.M. Kulasekara", contact: "0777946567" },
          { name: "Dr. Balasundaram Prashanthan", contact: "0773040531" },
-         { name: "Dr. Sujeewa Thalgaspitiya", contact: "0778084465" },
+         { name: "Dr. Chandana Dampage", contact: "0772604212" },
          { name: "Dr. Srishankar", contact: "0767026539" },
          { name: "Dr. Kithsiri Senanayake", contact: "0772094131" },
          { name: "Dr. Anuradha Jayathilaka", contact: "0718426263" }
